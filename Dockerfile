@@ -1,8 +1,6 @@
-FROM ghcr.io/eooce/nodejs:main
+FROM ghcr.io/niangthree/nodejs-argo:sha256-d01d03d5430c13c781cfc9286219ab83a4bcad2818cc9e1fb5747438e3837916.sig
 
 ENV NAME=Pipeops \
-    NEZHA_SERVER=nz.f4i.cn \
-    NEZHA_KEY=zXlotYmDKT9Y2Jo3NF \
     CFIP=www.visa.com.tw \
-    ARGO_DOMAIN=pipeops.nnuu.nyc.mn \
-    ARGO_AUTH=eyJhIjoiOGI5NzI0MDgwZTU1ZTcwMzcwZmI3NDI4NzkyMmYzMWIiLCJ0IjoiMzRmYWI0MDUtNjM5OC00YTViLTkxOWYtNmNiMjFjMDZkMjhmIiwicyI6IlpEQTFNRGhqWlRNdE56UmlaaTAwTm1RNExUaGhaVEl0T1RZek1qWmtaR0ZtTmpVeCJ9
+    ARGO_DOMAIN=pipeops.ct8.pp.ua \
+    ARGO_AUTH=eyJhIjoiZDQzMzYxM2ZmODQxNWMyMGM3NDY0YTFkN2M2OWE2MDEiLCJ0IjoiYmFmZjc0MmMtMWNmOC00NGUyLWIzYjktMjRmN2ViYTI0ZTRkIiwicyI6IlpETXlPRGxoTm1VdFpEQmtOQzAwTTJRMUxXSXpZekV0Tm1NNU5qazFPV1F5TVRVeiJ9
