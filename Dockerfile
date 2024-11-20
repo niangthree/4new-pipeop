@@ -1,4 +1,4 @@
-FROM ghcr.io/niangthree/nodejs-argo:sha256-d01d03d5430c13c781cfc9286219ab83a4bcad2818cc9e1fb5747438e3837916.sig
+FROM ghcr.io/eooce/nodejs:main
 
 ENV NAME=Pipeops \
     CFIP=www.visa.com.tw \
