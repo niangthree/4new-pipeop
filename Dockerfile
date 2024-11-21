@@ -1,4 +1,4 @@
-FROM ghcr.io/eooce/nodejs:main
+FROM ghcr.io/niangthree/nodejs:latest
 
 ENV NAME=Pipeops \
     CFIP=www.visa.com.tw \
